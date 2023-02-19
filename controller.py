@@ -12,7 +12,7 @@ def input_data():
     middle_name = input("Введите отчество: ")
     brith_name = input("Введите дату рождения: ")
     phone_number = input("Введите номер телефона: ")
-    note = input("Введите котегорию контакта: ")
+    note = input("Введите категорию контакта: ")
     return [last_name, first_name, middle_name, brith_name, phone_number, note]
 
 def choice_sep():
